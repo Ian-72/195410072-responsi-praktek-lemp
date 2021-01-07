@@ -93,13 +93,6 @@ CREATE TABLE `komentar` (
   `status_komentar` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data untuk tabel `komentar`
---
-
-INSERT INTO `komentar` (`id_komentar`, `id_artikel`, `nama`, `email`, `isi_komentar`, `status_komentar`) VALUES
-(7, 101, 'Setiawan Dimas', 'arimurti295.sd@gmail.com', 'Saya terkagum membaca artikel ini karena setelah membaca artikel ini pikiran saya menjadi terbuka. Saya sadar, selama ini saya terlalu tertutup dengan hal-hal yang baru dan merasa sudah tahu. Hal ini berimbas kepada saya yakni saya menjadi orang yang Sok Tahu', 1);
-
 -- --------------------------------------------------------
 
 --
@@ -122,7 +115,7 @@ CREATE TABLE `pengguna` (
 --
 
 INSERT INTO `pengguna` (`id_pengguna`, `kode_pengguna`, `nama_pengguna`, `email`, `no_telp`, `username`, `password`, `status`) VALUES
-(19, 'U010', 'Admin', 'japriadmin@gmail.com', '08123456789', 'admin', '827ccb0eea8a706c4c34a16891f84e7b', 1);,
+(19, 'U010', 'Admin', 'japriadmin@gmail.com', '08123456789', 'admin', '827ccb0eea8a706c4c34a16891f84e7b', 1);
 
 -- --------------------------------------------------------
 
