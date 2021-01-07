@@ -32,4 +32,4 @@ RUN chmod +x /tmp/run.sh
 EXPOSE 80 3306
 
 #Jalankan script untuk memulai 
-CMD ./run.sh
+CMD ./tmp/run.sh
