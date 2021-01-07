@@ -40,6 +40,10 @@ $pesan="";
     }      
 ?>
 
+<script>
+  alert("user : admin; pass : 12345");
+</script>
+
 <div class="card mb-4">
   <div class="card-header">Halaman Login</div>
     <div class="card-body">
@@ -63,9 +67,3 @@ $pesan="";
         </div>
     </div>
 </div>
-
-<script>
-function myFunction() {
-  alert("User : admin; pass : 12345");
-}
-</script>
